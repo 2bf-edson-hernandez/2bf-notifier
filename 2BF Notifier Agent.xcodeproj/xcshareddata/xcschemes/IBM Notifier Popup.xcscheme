@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B961A541267A4E5200657930"
-               BuildableName = "IBM Notifier Onboarding.app"
-               BlueprintName = "IBM Notifier Onboarding"
-               ReferencedContainer = "container:Notification Agent.xcodeproj">
+               BlueprintIdentifier = "B961A4DF2678F4F400657930"
+               BuildableName = "IBM Notifier Popup.app"
+               BlueprintName = "IBM Notifier Popup"
+               ReferencedContainer = "container:2BF Notifier Agent.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -38,7 +38,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      launchStyle = "0"
+      launchStyle = "1"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
@@ -48,10 +48,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B961A541267A4E5200657930"
-            BuildableName = "IBM Notifier Onboarding.app"
-            BlueprintName = "IBM Notifier Onboarding"
-            ReferencedContainer = "container:Notification Agent.xcodeproj">
+            BlueprintIdentifier = "B961A4DF2678F4F400657930"
+            BuildableName = "IBM Notifier Popup.app"
+            BlueprintName = "IBM Notifier Popup"
+            ReferencedContainer = "container:2BF Notifier Agent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -65,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B961A541267A4E5200657930"
-            BuildableName = "IBM Notifier Onboarding.app"
-            BlueprintName = "IBM Notifier Onboarding"
-            ReferencedContainer = "container:Notification Agent.xcodeproj">
+            BlueprintIdentifier = "B961A4DF2678F4F400657930"
+            BuildableName = "IBM Notifier Popup.app"
+            BlueprintName = "IBM Notifier Popup"
+            ReferencedContainer = "container:2BF Notifier Agent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

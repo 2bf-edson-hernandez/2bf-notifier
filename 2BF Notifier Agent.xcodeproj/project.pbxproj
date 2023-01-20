@@ -1588,7 +1588,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F47F5531249B8C1B006A0754 /* Build configuration list for PBXProject "Notification Agent" */;
+			buildConfigurationList = F47F5531249B8C1B006A0754 /* Build configuration list for PBXProject "2BF Notifier Agent" */;
 			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -3169,7 +3169,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F47F5531249B8C1B006A0754 /* Build configuration list for PBXProject "Notification Agent" */ = {
+		F47F5531249B8C1B006A0754 /* Build configuration list for PBXProject "2BF Notifier Agent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F47F555A249B8C1C006A0754 /* Debug */,

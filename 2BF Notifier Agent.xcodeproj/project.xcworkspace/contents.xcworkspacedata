@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/edson.hernandez/Documents/2bf-notifier/2BF Notifier Agent.xcodeproj">
    </FileRef>
 </Workspace>

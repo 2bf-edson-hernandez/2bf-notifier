@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B961A4DF2678F4F400657930"
-               BuildableName = "IBM Notifier Popup.app"
-               BlueprintName = "IBM Notifier Popup"
-               ReferencedContainer = "container:Notification Agent.xcodeproj">
+               BlueprintIdentifier = "B920D4B8265F8FC600437BE6"
+               BuildableName = "IBM Notifier Alert.app"
+               BlueprintName = "IBM Notifier Alert"
+               ReferencedContainer = "container:2BF Notifier Agent.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,10 +48,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B961A4DF2678F4F400657930"
-            BuildableName = "IBM Notifier Popup.app"
-            BlueprintName = "IBM Notifier Popup"
-            ReferencedContainer = "container:Notification Agent.xcodeproj">
+            BlueprintIdentifier = "B920D4B8265F8FC600437BE6"
+            BuildableName = "IBM Notifier Alert.app"
+            BlueprintName = "IBM Notifier Alert"
+            ReferencedContainer = "container:2BF Notifier Agent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -65,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B961A4DF2678F4F400657930"
-            BuildableName = "IBM Notifier Popup.app"
-            BlueprintName = "IBM Notifier Popup"
-            ReferencedContainer = "container:Notification Agent.xcodeproj">
+            BlueprintIdentifier = "B920D4B8265F8FC600437BE6"
+            BuildableName = "IBM Notifier Alert.app"
+            BlueprintName = "IBM Notifier Alert"
+            ReferencedContainer = "container:2BF Notifier Agent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
