@@ -19,15 +19,15 @@ enum AppComponent {
     var bundleName: String {
         switch self {
         case .core:
-            return "IBM Notifier"
+            return "2BF Notifier"
         case .alert:
-            return "IBM Notifier Alert"
+            return "2BF Notifier Alert"
         case .banner:
-            return "IBM Notifier Banner"
+            return "2BF Notifier Banner"
         case .onboarding:
-            return "IBM Notifier Onboarding"
+            return "2BF Notifier Onboarding"
         case .popup:
-            return "IBM Notifier Popup"
+            return "2BF Notifier Popup"
         }
     }
     var binaryPath: String {
@@ -43,15 +43,15 @@ enum AppComponent {
     }
     static var current: AppComponent {
         switch Bundle.main.bundleIdentifier! {
-        case "com.ibm.cio.notifier":
+        case "com.2bf.notifier":
             return .core
-        case "com.ibm.cio.notifier.alert":
+        case "com.2bf.notifier.alert":
             return .alert
-        case "com.ibm.cio.notifier.banner":
+        case "com.2bf.notifier.banner":
             return .banner
-        case "com.ibm.cio.notifier.popup":
+        case "com.2bf.notifier.popup":
             return .popup
-        case "com.ibm.cio.notifier.onboarding":
+        case "com.2bf.notifier.onboarding":
             return .onboarding
         default:
             return .core

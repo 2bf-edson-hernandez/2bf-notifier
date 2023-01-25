@@ -8,7 +8,7 @@
 */
 
 // MARK: - Main popup window
-"default_popup_bar_title" = "IBM Notifier";
+"default_popup_bar_title" = "2BF Notifier";
 
 // MARK: - Accessory views
 "accessory_view_timer_label" = "Please make a selection in %@";

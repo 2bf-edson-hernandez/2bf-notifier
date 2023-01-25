@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B961A541267A4E5200657930"
-               BuildableName = "IBM Notifier Onboarding.app"
-               BlueprintName = "IBM Notifier Onboarding"
+               BuildableName = "2BF Notifier Onboarding.app"
+               BlueprintName = "2BF Notifier Onboarding"
                ReferencedContainer = "container:2BF Notifier Agent.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -49,8 +49,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B961A541267A4E5200657930"
-            BuildableName = "IBM Notifier Onboarding.app"
-            BlueprintName = "IBM Notifier Onboarding"
+            BuildableName = "2BF Notifier Onboarding.app"
+            BlueprintName = "2BF Notifier Onboarding"
             ReferencedContainer = "container:2BF Notifier Agent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -66,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B961A541267A4E5200657930"
-            BuildableName = "IBM Notifier Onboarding.app"
-            BlueprintName = "IBM Notifier Onboarding"
+            BuildableName = "2BF Notifier Onboarding.app"
+            BlueprintName = "2BF Notifier Onboarding"
             ReferencedContainer = "container:2BF Notifier Agent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

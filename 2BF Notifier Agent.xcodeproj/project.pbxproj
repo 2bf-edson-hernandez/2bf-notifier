@@ -40,7 +40,7 @@
 		B920D4F7265F90FC00437BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47F553D249B8C1B006A0754 /* Assets.xcassets */; };
 		B920D4F8265F90FF00437BE6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9524D3324E15DA9007662C8 /* Localizable.strings */; };
 		B920D502265F927B00437BE6 /* NotificationDispatch-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B920D501265F927B00437BE6 /* NotificationDispatch-Extension.swift */; };
-		B920D504265F939800437BE6 /* IBM Notifier Alert.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = B920D4B9265F8FC600437BE6 /* IBM Notifier Alert.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B920D504265F939800437BE6 /* 2BF Notifier Alert.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = B920D4B9265F8FC600437BE6 /* 2BF Notifier Alert.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B92C37772701D933006114A3 /* InteractiveEFCLContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B961A624267C7DFB00657930 /* InteractiveEFCLContoller.swift */; };
 		B92D021C25ED50900076C452 /* NAMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D021B25ED50900076C452 /* NAMedia.swift */; };
 		B92E6708253893D900F39949 /* ProgressState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92E6707253893D900F39949 /* ProgressState.swift */; };
@@ -101,7 +101,7 @@
 		B961A4C62673679800657930 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9524D3324E15DA9007662C8 /* Localizable.strings */; };
 		B961A4CA26736D3200657930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B961A4C926736D3200657930 /* AppDelegate.swift */; };
 		B961A4D42677AFB000657930 /* EFCLController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B961A4D32677AFB000657930 /* EFCLController.swift */; };
-		B961A4F22678F5EC00657930 /* IBM Notifier Popup.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = B961A4E02678F4F400657930 /* IBM Notifier Popup.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B961A4F22678F5EC00657930 /* 2BF Notifier Popup.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = B961A4E02678F4F400657930 /* 2BF Notifier Popup.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B961A4F42679F50E00657930 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B961A4F32679F50E00657930 /* TaskManager.swift */; };
 		B961A4F6267A483900657930 /* NotificationDispatch-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B961A4F5267A483500657930 /* NotificationDispatch-Extension.swift */; };
 		B961A4F9267A48AA00657930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B961A4F8267A48AA00657930 /* AppDelegate.swift */; };
@@ -149,7 +149,7 @@
 		B961A53D267A4DE100657930 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9524D3324E15DA9007662C8 /* Localizable.strings */; };
 		B961A54C267A4E5500657930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B961A54A267A4E5500657930 /* Main.storyboard */; };
 		B961A55C267A4F2700657930 /* NotificationDispatch-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B961A55B267A4F2300657930 /* NotificationDispatch-Extension.swift */; };
-		B961A55E267A4FC200657930 /* IBM Notifier Onboarding.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = B961A542267A4E5200657930 /* IBM Notifier Onboarding.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B961A55E267A4FC200657930 /* 2BF Notifier Onboarding.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = B961A542267A4E5200657930 /* 2BF Notifier Onboarding.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B961A57F267A594300657930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B961A57E267A594300657930 /* AppDelegate.swift */; };
 		B961A582267A5CDA00657930 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96172FA251D10420042F0CF /* Utils.swift */; };
 		B961A584267A5CE100657930 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9524D3324E15DA9007662C8 /* Localizable.strings */; };
@@ -209,7 +209,7 @@
 		B97583C22673643F0038A99F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97583C02673643F0038A99F /* Main.storyboard */; };
 		B97583D1267364D70038A99F /* NotificationDispatch-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97583D0267364CE0038A99F /* NotificationDispatch-Extension.swift */; };
 		B97583D2267364DD0038A99F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47F553D249B8C1B006A0754 /* Assets.xcassets */; };
-		B97583D5267366050038A99F /* IBM Notifier Banner.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = B97583B82673643E0038A99F /* IBM Notifier Banner.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B97583D5267366050038A99F /* 2BF Notifier Banner.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = B97583B82673643E0038A99F /* 2BF Notifier Banner.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B985DACA263854EA004F3470 /* NSScreen-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B985DAC9263854EA004F3470 /* NSScreen-Extension.swift */; };
 		B9A03A9B24B76511005BB90E /* NotificationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A03A9A24B76511005BB90E /* NotificationObject.swift */; };
 		B9A03A9F24B779B8005BB90E /* NotificationAccessoryElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A03A9E24B779B8005BB90E /* NotificationAccessoryElement.swift */; };
@@ -611,7 +611,7 @@
 			dstPath = Contents/Helpers;
 			dstSubfolderSpec = 1;
 			files = (
-				B920D504265F939800437BE6 /* IBM Notifier Alert.app in CopyFiles */,
+				B920D504265F939800437BE6 /* 2BF Notifier Alert.app in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,7 +621,7 @@
 			dstPath = Contents/Helpers;
 			dstSubfolderSpec = 1;
 			files = (
-				B961A4F22678F5EC00657930 /* IBM Notifier Popup.app in CopyFiles */,
+				B961A4F22678F5EC00657930 /* 2BF Notifier Popup.app in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,7 +631,7 @@
 			dstPath = Contents/Helpers;
 			dstSubfolderSpec = 1;
 			files = (
-				B961A55E267A4FC200657930 /* IBM Notifier Onboarding.app in CopyFiles */,
+				B961A55E267A4FC200657930 /* 2BF Notifier Onboarding.app in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,7 +641,7 @@
 			dstPath = Contents/Helpers;
 			dstSubfolderSpec = 1;
 			files = (
-				B97583D5267366050038A99F /* IBM Notifier Banner.app in CopyFiles */,
+				B97583D5267366050038A99F /* 2BF Notifier Banner.app in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,7 +651,7 @@
 		B9013A8A24F7E5E5009A4554 /* NALogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NALogger.swift; sourceTree = "<group>"; };
 		B9013A8C24F80C0F009A4554 /* HelpBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpBuilder.swift; sourceTree = "<group>"; };
 		B9064C0C276BAF240085FA31 /* PopupReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupReminder.swift; sourceTree = "<group>"; };
-		B920D4B9265F8FC600437BE6 /* IBM Notifier Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBM Notifier Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B920D4B9265F8FC600437BE6 /* 2BF Notifier Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2BF Notifier Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B920D4C2265F8FC700437BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B920D4C4265F8FC700437BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B920D4C5265F8FC700437BE6 /* Notification_Agent_Alerts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Notification_Agent_Alerts.entitlements; sourceTree = "<group>"; };
@@ -681,7 +681,7 @@
 		B96172FA251D10420042F0CF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		B961A4C926736D3200657930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B961A4D32677AFB000657930 /* EFCLController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFCLController.swift; sourceTree = "<group>"; };
-		B961A4E02678F4F400657930 /* IBM Notifier Popup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBM Notifier Popup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B961A4E02678F4F400657930 /* 2BF Notifier Popup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2BF Notifier Popup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B961A4EB2678F4F800657930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B961A4EC2678F4F800657930 /* Notification_Agent_Popups.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Notification_Agent_Popups.entitlements; sourceTree = "<group>"; };
 		B961A4F32679F50E00657930 /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
@@ -689,7 +689,7 @@
 		B961A4F8267A48AA00657930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B961A4FA267A48AD00657930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B961A4FC267A48B100657930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B961A542267A4E5200657930 /* IBM Notifier Onboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBM Notifier Onboarding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B961A542267A4E5200657930 /* 2BF Notifier Onboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2BF Notifier Onboarding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B961A54B267A4E5500657930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B961A54D267A4E5500657930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B961A54E267A4E5500657930 /* Notification_Agent_Onboarding.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Notification_Agent_Onboarding.entitlements; sourceTree = "<group>"; };
@@ -702,7 +702,7 @@
 		B961A62B267C9DA200657930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B96AE19524F52A2300C99A5E /* ReplyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplyHandler.swift; sourceTree = "<group>"; };
 		B9710AB524A0F184000B5A67 /* DeepLinkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkEngine.swift; sourceTree = "<group>"; };
-		B97583B82673643E0038A99F /* IBM Notifier Banner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBM Notifier Banner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97583B82673643E0038A99F /* 2BF Notifier Banner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2BF Notifier Banner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B97583C12673643F0038A99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B97583C32673643F0038A99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B97583C42673643F0038A99F /* Notification_Agent_Banners.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Notification_Agent_Banners.entitlements; sourceTree = "<group>"; };
@@ -747,7 +747,7 @@
 		B9EDC98D24EC0D91004F6108 /* InfoSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSection.swift; sourceTree = "<group>"; };
 		B9EDC98F24EC0DAD004F6108 /* HorizontalLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalLine.swift; sourceTree = "<group>"; };
 		D3CA46A125516523001AA69B /* InputAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAccessoryView.swift; sourceTree = "<group>"; };
-		F47F5536249B8C1B006A0754 /* IBM Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBM Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47F5536249B8C1B006A0754 /* 2BF Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2BF Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47F553B249B8C1B006A0754 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		F47F553D249B8C1B006A0754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F47F5540249B8C1B006A0754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -1185,11 +1185,11 @@
 		F47F5537249B8C1B006A0754 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F47F5536249B8C1B006A0754 /* IBM Notifier.app */,
-				B920D4B9265F8FC600437BE6 /* IBM Notifier Alert.app */,
-				B97583B82673643E0038A99F /* IBM Notifier Banner.app */,
-				B961A4E02678F4F400657930 /* IBM Notifier Popup.app */,
-				B961A542267A4E5200657930 /* IBM Notifier Onboarding.app */,
+				F47F5536249B8C1B006A0754 /* 2BF Notifier.app */,
+				B920D4B9265F8FC600437BE6 /* 2BF Notifier Alert.app */,
+				B97583B82673643E0038A99F /* 2BF Notifier Banner.app */,
+				B961A4E02678F4F400657930 /* 2BF Notifier Popup.app */,
+				B961A542267A4E5200657930 /* 2BF Notifier Onboarding.app */,
 				FDFCA5382857CE3D009C1880 /* Notification Agent Core Tests.xctest */,
 				FDFCA5772857D71F009C1880 /* Notification Agent Alert Tests.xctest */,
 				FDFCA5842857D798009C1880 /* Notification Agent Banner Tests.xctest */,
@@ -1298,9 +1298,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B920D4B8265F8FC600437BE6 /* IBM Notifier Alert */ = {
+		B920D4B8265F8FC600437BE6 /* 2BF Notifier Alert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B920D4C6265F8FC700437BE6 /* Build configuration list for PBXNativeTarget "IBM Notifier Alert" */;
+			buildConfigurationList = B920D4C6265F8FC700437BE6 /* Build configuration list for PBXNativeTarget "2BF Notifier Alert" */;
 			buildPhases = (
 				B920D4B5265F8FC600437BE6 /* Sources */,
 				B920D4B6265F8FC600437BE6 /* Frameworks */,
@@ -1310,16 +1310,16 @@
 			);
 			dependencies = (
 			);
-			name = "IBM Notifier Alert";
+			name = "2BF Notifier Alert";
 			packageProductDependencies = (
 			);
 			productName = "Notification Agent Alerts";
-			productReference = B920D4B9265F8FC600437BE6 /* IBM Notifier Alert.app */;
+			productReference = B920D4B9265F8FC600437BE6 /* 2BF Notifier Alert.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B961A4DF2678F4F400657930 /* IBM Notifier Popup */ = {
+		B961A4DF2678F4F400657930 /* 2BF Notifier Popup */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B961A4ED2678F4F800657930 /* Build configuration list for PBXNativeTarget "IBM Notifier Popup" */;
+			buildConfigurationList = B961A4ED2678F4F800657930 /* Build configuration list for PBXNativeTarget "2BF Notifier Popup" */;
 			buildPhases = (
 				B961A4DC2678F4F400657930 /* Sources */,
 				B961A4DD2678F4F400657930 /* Frameworks */,
@@ -1329,18 +1329,18 @@
 			);
 			dependencies = (
 			);
-			name = "IBM Notifier Popup";
+			name = "2BF Notifier Popup";
 			packageProductDependencies = (
 				B961A502267A498200657930 /* SwiftyMarkdown */,
 				B9B9014B26988A6200825FB1 /* Signals */,
 			);
 			productName = "Notification Agent Popups";
-			productReference = B961A4E02678F4F400657930 /* IBM Notifier Popup.app */;
+			productReference = B961A4E02678F4F400657930 /* 2BF Notifier Popup.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B961A541267A4E5200657930 /* IBM Notifier Onboarding */ = {
+		B961A541267A4E5200657930 /* 2BF Notifier Onboarding */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B961A54F267A4E5500657930 /* Build configuration list for PBXNativeTarget "IBM Notifier Onboarding" */;
+			buildConfigurationList = B961A54F267A4E5500657930 /* Build configuration list for PBXNativeTarget "2BF Notifier Onboarding" */;
 			buildPhases = (
 				B961A53E267A4E5200657930 /* Sources */,
 				B961A53F267A4E5200657930 /* Frameworks */,
@@ -1350,17 +1350,17 @@
 			);
 			dependencies = (
 			);
-			name = "IBM Notifier Onboarding";
+			name = "2BF Notifier Onboarding";
 			packageProductDependencies = (
 				B961A602267B8E2A00657930 /* SwiftyMarkdown */,
 			);
 			productName = "Notification Agent Onboarding";
-			productReference = B961A542267A4E5200657930 /* IBM Notifier Onboarding.app */;
+			productReference = B961A542267A4E5200657930 /* 2BF Notifier Onboarding.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B97583B72673643E0038A99F /* IBM Notifier Banner */ = {
+		B97583B72673643E0038A99F /* 2BF Notifier Banner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B97583C52673643F0038A99F /* Build configuration list for PBXNativeTarget "IBM Notifier Banner" */;
+			buildConfigurationList = B97583C52673643F0038A99F /* Build configuration list for PBXNativeTarget "2BF Notifier Banner" */;
 			buildPhases = (
 				B97583B42673643E0038A99F /* Sources */,
 				B97583B52673643E0038A99F /* Frameworks */,
@@ -1370,16 +1370,16 @@
 			);
 			dependencies = (
 			);
-			name = "IBM Notifier Banner";
+			name = "2BF Notifier Banner";
 			packageProductDependencies = (
 			);
 			productName = "Notification Agent Banners";
-			productReference = B97583B82673643E0038A99F /* IBM Notifier Banner.app */;
+			productReference = B97583B82673643E0038A99F /* 2BF Notifier Banner.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F47F5535249B8C1B006A0754 /* IBM Notifier */ = {
+		F47F5535249B8C1B006A0754 /* 2BF Notifier */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F47F555C249B8C1C006A0754 /* Build configuration list for PBXNativeTarget "IBM Notifier" */;
+			buildConfigurationList = F47F555C249B8C1C006A0754 /* Build configuration list for PBXNativeTarget "2BF Notifier" */;
 			buildPhases = (
 				B9710AB424A0A584000B5A67 /* SwiftLint */,
 				F47F5532249B8C1B006A0754 /* Sources */,
@@ -1398,13 +1398,13 @@
 				FD267D602858D0880019237D /* PBXTargetDependency */,
 				FD267D622858D0880019237D /* PBXTargetDependency */,
 			);
-			name = "IBM Notifier";
+			name = "2BF Notifier";
 			packageProductDependencies = (
 				B9B1720224F6C28800DF656A /* Signals */,
 				B9A1425725D68DC500E87AD6 /* SwiftJWT */,
 			);
 			productName = "Notification Agent";
-			productReference = F47F5536249B8C1B006A0754 /* IBM Notifier.app */;
+			productReference = F47F5536249B8C1B006A0754 /* 2BF Notifier.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FDFCA5372857CE3D009C1880 /* Notification Agent Core Tests */ = {
@@ -1607,11 +1607,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F47F5535249B8C1B006A0754 /* IBM Notifier */,
-				B920D4B8265F8FC600437BE6 /* IBM Notifier Alert */,
-				B97583B72673643E0038A99F /* IBM Notifier Banner */,
-				B961A4DF2678F4F400657930 /* IBM Notifier Popup */,
-				B961A541267A4E5200657930 /* IBM Notifier Onboarding */,
+				F47F5535249B8C1B006A0754 /* 2BF Notifier */,
+				B920D4B8265F8FC600437BE6 /* 2BF Notifier Alert */,
+				B97583B72673643E0038A99F /* 2BF Notifier Banner */,
+				B961A4DF2678F4F400657930 /* 2BF Notifier Popup */,
+				B961A541267A4E5200657930 /* 2BF Notifier Onboarding */,
 				FDFCA5372857CE3D009C1880 /* Notification Agent Core Tests */,
 				FDFCA5762857D71F009C1880 /* Notification Agent Alert Tests */,
 				FDFCA5832857D798009C1880 /* Notification Agent Banner Tests */,
@@ -2328,57 +2328,57 @@
 /* Begin PBXTargetDependency section */
 		FD267D5C2858D0880019237D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B920D4B8265F8FC600437BE6 /* IBM Notifier Alert */;
+			target = B920D4B8265F8FC600437BE6 /* 2BF Notifier Alert */;
 			targetProxy = FD267D5B2858D0880019237D /* PBXContainerItemProxy */;
 		};
 		FD267D5E2858D0880019237D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B97583B72673643E0038A99F /* IBM Notifier Banner */;
+			target = B97583B72673643E0038A99F /* 2BF Notifier Banner */;
 			targetProxy = FD267D5D2858D0880019237D /* PBXContainerItemProxy */;
 		};
 		FD267D602858D0880019237D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B961A541267A4E5200657930 /* IBM Notifier Onboarding */;
+			target = B961A541267A4E5200657930 /* 2BF Notifier Onboarding */;
 			targetProxy = FD267D5F2858D0880019237D /* PBXContainerItemProxy */;
 		};
 		FD267D622858D0880019237D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B961A4DF2678F4F400657930 /* IBM Notifier Popup */;
+			target = B961A4DF2678F4F400657930 /* 2BF Notifier Popup */;
 			targetProxy = FD267D612858D0880019237D /* PBXContainerItemProxy */;
 		};
 		FD267D642858D0AF0019237D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B961A541267A4E5200657930 /* IBM Notifier Onboarding */;
+			target = B961A541267A4E5200657930 /* 2BF Notifier Onboarding */;
 			targetProxy = FD267D632858D0AF0019237D /* PBXContainerItemProxy */;
 		};
 		FDFCA53D2857CE3D009C1880 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F47F5535249B8C1B006A0754 /* IBM Notifier */;
+			target = F47F5535249B8C1B006A0754 /* 2BF Notifier */;
 			targetProxy = FDFCA53C2857CE3D009C1880 /* PBXContainerItemProxy */;
 		};
 		FDFCA57C2857D720009C1880 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B920D4B8265F8FC600437BE6 /* IBM Notifier Alert */;
+			target = B920D4B8265F8FC600437BE6 /* 2BF Notifier Alert */;
 			targetProxy = FDFCA57B2857D720009C1880 /* PBXContainerItemProxy */;
 		};
 		FDFCA5892857D798009C1880 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B97583B72673643E0038A99F /* IBM Notifier Banner */;
+			target = B97583B72673643E0038A99F /* 2BF Notifier Banner */;
 			targetProxy = FDFCA5882857D798009C1880 /* PBXContainerItemProxy */;
 		};
 		FDFCA5962857DC81009C1880 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B961A4DF2678F4F400657930 /* IBM Notifier Popup */;
+			target = B961A4DF2678F4F400657930 /* 2BF Notifier Popup */;
 			targetProxy = FDFCA5952857DC81009C1880 /* PBXContainerItemProxy */;
 		};
 		FDFCA5A52857DCC3009C1880 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B961A4DF2678F4F400657930 /* IBM Notifier Popup */;
+			target = B961A4DF2678F4F400657930 /* 2BF Notifier Popup */;
 			targetProxy = FDFCA5A42857DCC3009C1880 /* PBXContainerItemProxy */;
 		};
 		FDFCA5C12857DD62009C1880 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B961A541267A4E5200657930 /* IBM Notifier Onboarding */;
+			target = B961A541267A4E5200657930 /* 2BF Notifier Onboarding */;
 			targetProxy = FDFCA5C02857DD62009C1880 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -2448,13 +2448,14 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Notification Agent Alerts/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 2.9.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cio.notifier.alert;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2bf.notifier.alert;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2477,13 +2478,14 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Notification Agent Alerts/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 2.9.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cio.notifier.alert;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2bf.notifier.alert;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2506,13 +2508,14 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Notification Agent Popups/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 2.9.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cio.notifier.popup;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2bf.notifier.popup;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2535,13 +2538,14 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Notification Agent Popups/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 2.9.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cio.notifier.popup;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2bf.notifier.popup;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2564,13 +2568,14 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Notification Agent Onboarding/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 2.9.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cio.notifier.onboarding;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2bf.notifier.onboarding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -2592,13 +2597,14 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Notification Agent Onboarding/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 2.9.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cio.notifier.onboarding;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2bf.notifier.onboarding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -2620,13 +2626,14 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Notification Agent Banners/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 2.9.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cio.notifier.banner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2bf.notifier.banner;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2649,13 +2656,14 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Notification Agent Banners/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 2.9.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cio.notifier.banner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2bf.notifier.banner;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2800,6 +2808,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				INFOPLIST_FILE = "Notification Agent Core/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -2807,7 +2816,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 2.9.1;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cio.notifier;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2bf.notifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -2829,6 +2838,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				INFOPLIST_FILE = "Notification Agent Core/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -2836,7 +2846,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 2.9.1;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cio.notifier;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2bf.notifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -3133,7 +3143,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B920D4C6265F8FC700437BE6 /* Build configuration list for PBXNativeTarget "IBM Notifier Alert" */ = {
+		B920D4C6265F8FC700437BE6 /* Build configuration list for PBXNativeTarget "2BF Notifier Alert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B920D4C7265F8FC700437BE6 /* Debug */,
@@ -3142,7 +3152,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B961A4ED2678F4F800657930 /* Build configuration list for PBXNativeTarget "IBM Notifier Popup" */ = {
+		B961A4ED2678F4F800657930 /* Build configuration list for PBXNativeTarget "2BF Notifier Popup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B961A4EE2678F4F800657930 /* Debug */,
@@ -3151,7 +3161,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B961A54F267A4E5500657930 /* Build configuration list for PBXNativeTarget "IBM Notifier Onboarding" */ = {
+		B961A54F267A4E5500657930 /* Build configuration list for PBXNativeTarget "2BF Notifier Onboarding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B961A550267A4E5500657930 /* Debug */,
@@ -3160,7 +3170,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B97583C52673643F0038A99F /* Build configuration list for PBXNativeTarget "IBM Notifier Banner" */ = {
+		B97583C52673643F0038A99F /* Build configuration list for PBXNativeTarget "2BF Notifier Banner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B97583C62673643F0038A99F /* Debug */,
@@ -3178,7 +3188,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F47F555C249B8C1C006A0754 /* Build configuration list for PBXNativeTarget "IBM Notifier" */ = {
+		F47F555C249B8C1C006A0754 /* Build configuration list for PBXNativeTarget "2BF Notifier" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F47F555D249B8C1C006A0754 /* Debug */,
