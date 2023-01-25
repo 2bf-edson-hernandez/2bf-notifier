@@ -228,11 +228,11 @@ public final class HelpBuilder {
                                                    "239".bold()]
     static let onboardingReturnValuesDescription: [String] = ["User did finish onboarding.",
                                                               "User dimissed the onboarding window."]
-    static let examplePopup: String = "~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier -type popup -title \"Test title\" -subtitle \"Test subtitle\" -accessory_view_type whitebox -accessory_view_payload \"Test accessory view\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\" -help_button_cta_type infopopup -help_button_cta_payload \"Test help text\""
-    static let exampleBanner: String = "~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier -type banner -title \"Test title\" -subtitle \"Test subtitle\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\""
-    static let exampleAlert: String = "~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier -type alert -title \"Test title\" -subtitle \"Test subtitle\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\""
-    static let exampleOnboarding: String = "~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier -type onboarding -payload \"{\\\"pages\\\":[{\\\"title\\\":\\\"First page's title\\\",\\\"subtitle\\\":\\\"First page's subtitle\\\",\\\"body\\\":\\\"First page's body\\\"}]}\""
-    static let exampleSystemAlert: String = "~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier -type popup -title \"Test title\" -subtitle \"Test subtitle\" -icon_path \"path/to/icon.png\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\" -silent -showSuppressionButton"
+    static let examplePopup: String = "/Applications/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier -type popup -title \"Test title\" -subtitle \"Test subtitle\" -accessory_view_type whitebox -accessory_view_payload \"Test accessory view\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\" -help_button_cta_type infopopup -help_button_cta_payload \"Test help text\""
+    static let exampleBanner: String = "/Applications/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier -type banner -title \"Test title\" -subtitle \"Test subtitle\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\""
+    static let exampleAlert: String = "/Applications/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier -type alert -title \"Test title\" -subtitle \"Test subtitle\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\""
+    static let exampleOnboarding: String = "/Applications/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier -type onboarding -payload \"{\\\"pages\\\":[{\\\"title\\\":\\\"First page's title\\\",\\\"subtitle\\\":\\\"First page's subtitle\\\",\\\"body\\\":\\\"First page's body\\\"}]}\""
+    static let exampleSystemAlert: String = "/Applications/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier -type popup -title \"Test title\" -subtitle \"Test subtitle\" -icon_path \"path/to/icon.png\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\" -silent -showSuppressionButton"
     
     static func printHelp(_ arguments: [String]) {
         guard !arguments.contains("-popup") else {
@@ -269,7 +269,7 @@ public final class HelpBuilder {
         for argument in popupArguments {
             argumentsString += "[\(argument)] "
         }
-        print("Usage: ".cyan().bold() + "\n~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + argumentsString + "\n")
+        print("Usage: ".cyan().bold() + "\n/Applications/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + argumentsString + "\n")
         print("Color Legend: ".cyan().bold())
         print("Mandatory value".green() + " " + "Optional value".yellow() + "\n")
         print("Arguments details:".cyan().bold())
@@ -299,7 +299,7 @@ public final class HelpBuilder {
         for argument in bannerArguments {
             argumentsString += "[\(argument)] "
         }
-        print("Usage: ".cyan().bold() + "\n~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + argumentsString + "\n")
+        print("Usage: ".cyan().bold() + "\n/Applications/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + argumentsString + "\n")
         print("Color Legend: ".cyan().bold())
         print("Mandatory value".green() + " " + "Optional value".yellow() + "\n")
         print("Arguments details:".cyan().bold())
@@ -326,7 +326,7 @@ public final class HelpBuilder {
         for argument in onboardingArguments {
             argumentsString += "[\(argument)] "
         }
-        print("Usage: ".cyan().bold() + "\n~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + argumentsString + "\n")
+        print("Usage: ".cyan().bold() + "\n/Applications/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + argumentsString + "\n")
         print("Color Legend: ".cyan().bold())
         print("Mandatory value".green() + " " + "Optional value".yellow() + "\n")
         print("Arguments details:".cyan().bold())
@@ -349,8 +349,8 @@ public final class HelpBuilder {
         for argument in configurableParameters {
             configArgumentsString += "[\(argument)] "
         }
-        print("Usage (set): ".bold() + "\n~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + "[" + "--config".green() + "] " + configArgumentsString)
-        print("Usage (reset): ".bold() + "\n~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + "[" + "--config -reset".green() + "] " + configArgumentsString + "\n")
+        print("Usage (set): ".bold() + "\n/Applications/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + "[" + "--config".green() + "] " + configArgumentsString)
+        print("Usage (reset): ".bold() + "\n/Applications/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + "[" + "--config -reset".green() + "] " + configArgumentsString + "\n")
         for index in configurableParameters.indices {
             print("\(configurableParameters[index]):\n      \(configurableParametersDescriptions[index])")
         }
@@ -362,7 +362,7 @@ public final class HelpBuilder {
         for argument in systemAlertArguments {
             argumentsString += "[\(argument)] "
         }
-        print("Usage: ".cyan().bold() + "\n~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + argumentsString + "\n")
+        print("Usage: ".cyan().bold() + "\n/Applications/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + argumentsString + "\n")
         print("Color Legend: ".cyan().bold())
         print("Mandatory value".green() + " " + "Optional value".yellow() + "\n")
         print("Arguments details:".cyan().bold())
