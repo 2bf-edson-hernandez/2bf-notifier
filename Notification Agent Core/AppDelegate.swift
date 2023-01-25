@@ -52,7 +52,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         configureApp {
             for url in urls {
-                NALogger.shared.log("IBM Notifier has been triggered by a URL", [url.absoluteString])
+                NALogger.shared.log("2BF Notifier has been triggered by a URL", [url.absoluteString])
                 self.deepLinkEngine.processURL(url)
             }
         }

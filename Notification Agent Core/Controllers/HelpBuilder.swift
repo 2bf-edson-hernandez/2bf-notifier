@@ -228,11 +228,11 @@ public final class HelpBuilder {
                                                    "239".bold()]
     static let onboardingReturnValuesDescription: [String] = ["User did finish onboarding.",
                                                               "User dimissed the onboarding window."]
-    static let examplePopup: String = "~/IBM\\ Notifier.app/Contents/MacOS/IBM\\ Notifier -type popup -title \"Test title\" -subtitle \"Test subtitle\" -accessory_view_type whitebox -accessory_view_payload \"Test accessory view\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\" -help_button_cta_type infopopup -help_button_cta_payload \"Test help text\""
-    static let exampleBanner: String = "~/IBM\\ Notifier.app/Contents/MacOS/IBM\\ Notifier -type banner -title \"Test title\" -subtitle \"Test subtitle\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\""
-    static let exampleAlert: String = "~/IBM\\ Notifier.app/Contents/MacOS/IBM\\ Notifier -type alert -title \"Test title\" -subtitle \"Test subtitle\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\""
-    static let exampleOnboarding: String = "~/IBM\\ Notifier.app/Contents/MacOS/IBM\\ Notifier -type onboarding -payload \"{\\\"pages\\\":[{\\\"title\\\":\\\"First page's title\\\",\\\"subtitle\\\":\\\"First page's subtitle\\\",\\\"body\\\":\\\"First page's body\\\"}]}\""
-    static let exampleSystemAlert: String = "~/IBM\\ Notifier.app/Contents/MacOS/IBM\\ Notifier -type popup -title \"Test title\" -subtitle \"Test subtitle\" -icon_path \"path/to/icon.png\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\" -silent -showSuppressionButton"
+    static let examplePopup: String = "~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier -type popup -title \"Test title\" -subtitle \"Test subtitle\" -accessory_view_type whitebox -accessory_view_payload \"Test accessory view\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\" -help_button_cta_type infopopup -help_button_cta_payload \"Test help text\""
+    static let exampleBanner: String = "~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier -type banner -title \"Test title\" -subtitle \"Test subtitle\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\""
+    static let exampleAlert: String = "~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier -type alert -title \"Test title\" -subtitle \"Test subtitle\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\""
+    static let exampleOnboarding: String = "~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier -type onboarding -payload \"{\\\"pages\\\":[{\\\"title\\\":\\\"First page's title\\\",\\\"subtitle\\\":\\\"First page's subtitle\\\",\\\"body\\\":\\\"First page's body\\\"}]}\""
+    static let exampleSystemAlert: String = "~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier -type popup -title \"Test title\" -subtitle \"Test subtitle\" -icon_path \"path/to/icon.png\" -main_button_label \"Main button\" -secondary_button_label \"Secondary button\" -tertiary_button_label \"Tertiary button\" -tertiary_button_cta_type link -tertiary_button_cta_payload \"https://www.ibm.com\" -silent -showSuppressionButton"
     
     static func printHelp(_ arguments: [String]) {
         guard !arguments.contains("-popup") else {
@@ -259,17 +259,17 @@ public final class HelpBuilder {
             Self.printConfigurationHelp()
             return
         }
-        print("\nIBM Notifier Help Page".bold().blue() + "\n")
+        print("\n2BF Notifier Help Page".bold().blue() + "\n")
         print("You can use:\n     --help -popup - To show help page about the pop-up UI;\n     --help -banner - To show help page about the banner (temporary banner notification) UI;\n     --help -alert - To show help page about the alert (persistent banner notification) UI;\n     --help -onboarding - To show help page about the onboarding UI;\n     --help -systemAlert - To show help page about the system alert UI;\n     --help -configuration - To show help page about the configuration mode.\n")
     }
     
     static func printPopupHelp() {
-        print("\nIBM Notifier Popup UI".bold().blue() + "\n")
+        print("\n2BF Notifier Popup UI".bold().blue() + "\n")
         var argumentsString = ""
         for argument in popupArguments {
             argumentsString += "[\(argument)] "
         }
-        print("Usage: ".cyan().bold() + "\n~/IBM\\ Notifier.app/Contents/MacOS/IBM\\ Notifier " + argumentsString + "\n")
+        print("Usage: ".cyan().bold() + "\n~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + argumentsString + "\n")
         print("Color Legend: ".cyan().bold())
         print("Mandatory value".green() + " " + "Optional value".yellow() + "\n")
         print("Arguments details:".cyan().bold())
@@ -294,12 +294,12 @@ public final class HelpBuilder {
     }
     
     static func printBannerHelp() {
-        print("\nIBM Notifier Banner and Alert UIs".bold().blue() + "\n")
+        print("\n2BF Notifier Banner and Alert UIs".bold().blue() + "\n")
         var argumentsString = ""
         for argument in bannerArguments {
             argumentsString += "[\(argument)] "
         }
-        print("Usage: ".cyan().bold() + "\n~/IBM\\ Notifier.app/Contents/MacOS/IBM\\ Notifier " + argumentsString + "\n")
+        print("Usage: ".cyan().bold() + "\n~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + argumentsString + "\n")
         print("Color Legend: ".cyan().bold())
         print("Mandatory value".green() + " " + "Optional value".yellow() + "\n")
         print("Arguments details:".cyan().bold())
@@ -321,12 +321,12 @@ public final class HelpBuilder {
     }
     
     static func printOnboardingHelp() {
-        print("\nIBM Notifier Onboarding UI".bold().blue() + "\n")
+        print("\n2BF Notifier Onboarding UI".bold().blue() + "\n")
         var argumentsString = ""
         for argument in onboardingArguments {
             argumentsString += "[\(argument)] "
         }
-        print("Usage: ".cyan().bold() + "\n~/IBM\\ Notifier.app/Contents/MacOS/IBM\\ Notifier " + argumentsString + "\n")
+        print("Usage: ".cyan().bold() + "\n~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + argumentsString + "\n")
         print("Color Legend: ".cyan().bold())
         print("Mandatory value".green() + " " + "Optional value".yellow() + "\n")
         print("Arguments details:".cyan().bold())
@@ -343,26 +343,26 @@ public final class HelpBuilder {
     }
     
     static func printConfigurationHelp() {
-        print("\nIBM Notifier Configuration Mode".bold().blue() + "\n")
+        print("\n2BF Notifier Configuration Mode".bold().blue() + "\n")
         print("Configuration mode:".bold().cyan())
         var configArgumentsString = ""
         for argument in configurableParameters {
             configArgumentsString += "[\(argument)] "
         }
-        print("Usage (set): ".bold() + "\n~/IBM\\ Notifier.app/Contents/MacOS/IBM\\ Notifier " + "[" + "--config".green() + "] " + configArgumentsString)
-        print("Usage (reset): ".bold() + "\n~/IBM\\ Notifier.app/Contents/MacOS/IBM\\ Notifier " + "[" + "--config -reset".green() + "] " + configArgumentsString + "\n")
+        print("Usage (set): ".bold() + "\n~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + "[" + "--config".green() + "] " + configArgumentsString)
+        print("Usage (reset): ".bold() + "\n~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + "[" + "--config -reset".green() + "] " + configArgumentsString + "\n")
         for index in configurableParameters.indices {
             print("\(configurableParameters[index]):\n      \(configurableParametersDescriptions[index])")
         }
     }
     
     static func printSystemAlertHelp() {
-        print("\nIBM Notifier System Alert UI".bold().blue() + "\n")
+        print("\n2BF Notifier System Alert UI".bold().blue() + "\n")
         var argumentsString = ""
         for argument in systemAlertArguments {
             argumentsString += "[\(argument)] "
         }
-        print("Usage: ".cyan().bold() + "\n~/IBM\\ Notifier.app/Contents/MacOS/IBM\\ Notifier " + argumentsString + "\n")
+        print("Usage: ".cyan().bold() + "\n~/2BF\\ Notifier.app/Contents/MacOS/2BF\\ Notifier " + argumentsString + "\n")
         print("Color Legend: ".cyan().bold())
         print("Mandatory value".green() + " " + "Optional value".yellow() + "\n")
         print("Arguments details:".cyan().bold())
@@ -387,7 +387,7 @@ public final class HelpBuilder {
     }
     
     static func printNoArgumentsPage() {
-        print("\nIBM Notifier".bold().blue() + "\n")
+        print("\n2BF Notifier".bold().blue() + "\n")
         for index in specialArguments.indices {
             print("[\(specialArguments[index])] - \(specialArgumentsDescriptions[index])")
         }
@@ -414,6 +414,6 @@ public final class HelpBuilder {
     }
     
     static func printAppVersion() {
-        print("IBM Notifier version: \(Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String ?? "Unknown")".bold())
+        print("2BF Notifier version: \(Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String ?? "Unknown")".bold())
     }
 }
